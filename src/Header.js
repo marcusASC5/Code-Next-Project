@@ -1,11 +1,12 @@
 import React from "react";
-import {img} from "bkchess.png";
 
 export const Header = () => {
   return <header>
-    <div>Hello, welcome to Bkchess!</div>
-    <div id="bg"></div>
-    <img src="./bkchess.png" class="logo"/>
+    <h1>M.A.S.H.</h1>
+    <p>Welcome to M.A.S.H., where you'll get to see your future!
+    <br/>
+    Ready to get started?</p>
+    <button>Start</button>
   </header>
   
 }

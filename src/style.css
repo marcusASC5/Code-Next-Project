@@ -1,9 +1,11 @@
+* {
+  text-align: center;
+}
+
 h1, p {
   font-family: Lato;
 }
 
-.logo {
-  background-image: url("bkchess.png");
-  width: 1000px;
-  height: 1000px;
+Header {
+  background: mediumslateblue;
 }
