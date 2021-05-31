@@ -32,12 +32,10 @@ export default function App() {
   }
 
   function getCar(){
-    if (query >= cars.length){
-      query - cars.length;
-      if (query < cars.length){
-        return cars[query]
-      }
-    }
+    // if(query >= cars.length){
+    //   // let value = query - cars.length;
+    //   return cars[query];
+    // }
     return cars[query];
   }
 
