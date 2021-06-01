@@ -2,6 +2,8 @@ import React, {useState} from "react";
 import {Header} from "./Header";
 import {Input} from "./Input";
 import {Help} from "./Help";
+import {Initialize} from "./Input";
+import {Reset} from "./Mash";
 import Button from 'react-bootstrap/Button';
 import "./style.css";
 
@@ -54,13 +56,16 @@ export default function App() {
     <div>
       <Header />
       <Help />
-      <div class="mid">
+      <div id="mid">
         <p> What will your Magic Number be? </p>
         <Input value={query} onChange={onInputChange} />
         <br/>
+        <Initialize/>
       </div>
-      <div class="mash">
+      <div id="mash">
         <Mash />
+        <br/>
+        <Reset />
       </div>
     </div>
   );

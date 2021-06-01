@@ -15,11 +15,9 @@ Header {
   border: solid 3px navy;
 }
 
-button {
+header button {
   background: slateblue;
   font-family: Lato;
-  border: 
-
 }
 
 Input {
@@ -35,17 +33,29 @@ body {
   border: solid 3px orange;
 }
 
- .mid{
+ #mid{
   background: palegreen;
   border: solid 3px mediumseagreen;
   height: 17.5vh;
   padding-top: 10px;
+  display: none;
 }
 
-.mash {
+#mid button {
+  background: springgreen;
+  font-family: Lato;
+}
+
+#mash {
   font-family: Lato;
   background: lightcoral;
   border: solid 3px red;
   height: 10vh;
   padding-top: 45px;
+  display: none;
+}
+
+#mash button {
+  background: salmon;
+  font-family: Lato;
 }
