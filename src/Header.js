@@ -1,7 +1,7 @@
 import React from "react";
 
 export const Header = () => {
-  return <header>
+  return <header >
     <h1>M.A.S.H.</h1>
     <p>Welcome to M.A.S.H., where you'll get to see your future!
     <br/>

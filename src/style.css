@@ -15,6 +15,10 @@ Header {
   border: solid 3px navy;
 }
 
+button {
+  background: blue
+}
+
 Input {
   background: mediumspringgreen;
 }
