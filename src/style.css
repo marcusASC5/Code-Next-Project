@@ -2,14 +2,43 @@
   text-align: center;
 }
 
+html {
+  background: lemonchiffon;
+}
+
 h1, p {
   font-family: Lato;
 }
 
 Header {
   background: mediumslateblue;
+  border: solid 3px navy;
 }
 
 Input {
   background: mediumspringgreen;
+}
+
+body {
+  background: #f1f1f1;
+}
+
+.help {
+  background: papayawhip;
+  border: solid 3px orange;
+}
+
+ .mid{
+  background: palegreen;
+  border: solid 3px mediumseagreen;
+  height: 17.5vh;
+  padding-top: 10px;
+}
+
+.mash {
+  font-family: Lato;
+  background: lightcoral;
+  border: solid 3px red;
+  height: 10vh;
+  padding-top: 45px;
 }

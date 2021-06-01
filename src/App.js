@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {Header} from "./Header";
 import {Input} from "./Input";
-import {Mash} from "./Mash";
+import {Help} from "./Help";
 import "./style.css";
 
   
@@ -20,9 +20,12 @@ export default function App() {
   };
 
   function getHouse(){
-    if(query > homes.length){
-      query - homes.length;
-      return homes[query];
+    if(query >= homes.length){
+      var value = query - homes.length;
+      return homes[value];
+    }
+    if(!query){
+      return homes[0];
     }
     return homes[query];
   }
@@ -33,7 +36,11 @@ export default function App() {
 
   function getCar(){
     if(query >= cars.length){
-      return cars[2];
+      var value = query - cars.length;
+      return cars[value];
+    }
+    if(!query){
+      return cars[0];
     }
     return cars[query];
   }
@@ -45,10 +52,15 @@ export default function App() {
   return (
     <div>
       <Header />
-      <p> What will your Magic Number be? </p>
-      <Input value={query} onChange={onInputChange} />
-      <br/>
-      <Mash />
+      <Help />
+      <div class="mid">
+        <p> What will your Magic Number be? </p>
+        <Input value={query} onChange={onInputChange} />
+        <br/>
+      </div>
+      <div class="mash">
+        <Mash />
+      </div>
     </div>
   );
 }
