@@ -4,8 +4,8 @@
   "private": true,
   "dependencies": {
     "react": "17.0.0",
+    "react-bootstrap": "1.6.0",
     "react-dom": "17.0.0",
-    "readline-sync": "^1.4.10"
   },
   "scripts": {
     "start": "react-scripts start",

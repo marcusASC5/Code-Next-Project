@@ -16,7 +16,10 @@ Header {
 }
 
 button {
-  background: blue
+  background: slateblue;
+  font-family: Lato;
+  border: 
+
 }
 
 Input {
